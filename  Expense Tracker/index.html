@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- Header -->
+  <header>
+    <h2>💰 Expense Tracker</h2>
+  </header>
+
+  <!-- Balance -->
+  <div class="balance">
+    <h3>Total Balance</h3>
+    <h1>$2,450</h1>
+  </div>
+
+  <!-- Summary -->
+  <div class="summary">
+    <div class="income">
+      <h4>Income</h4>
+      <p>$3,500</p>
+    </div>
+    <div class="expense">
+      <h4>Expense</h4>
+      <p>$1,050</p>
+    </div>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-box">
+    <p>Monthly Spending</p>
+    <div class="progress">
+      <div class="bar"></div>
+    </div>
+  </div>
+
+  <!-- Add Transaction -->
+  <div class="form">
+    <h3>Add Transaction</h3>
+    <input type="text" placeholder="Description">
+    <input type="number" placeholder="Amount">
+    <select>
+      <option>Food</option>
+      <option>Shopping</option>
+      <option>Travel</option>
+    </select>
+    <button>Add</button>
+  </div>
+
+  <!-- Transactions -->
+  <div class="transactions">
+    <h3>Recent Transactions</h3>
+
+    <div class="item">
+      <p>Groceries <span class="tag">Food</span></p>
+      <span class="minus">-$50</span>
+    </div>
+
+    <div class="item">
+      <p>Salary <span class="tag">Income</span></p>
+      <span class="plus">+$2000</span>
+    </div>
+
+    <div class="item">
+      <p>Shopping <span class="tag">Shop</span></p>
+      <span class="minus">-$120</span>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
